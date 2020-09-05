@@ -19,7 +19,7 @@
 
         public string AddEmployee(Emp emp)
         {
-            return "";        
+            return Repository.AddEmployee(emp);
         }
 
         public string GenerateJSONWebToken()
